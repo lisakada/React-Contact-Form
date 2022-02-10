@@ -1,0 +1,69 @@
+
+body{
+    background-image: url("address.jpg");
+}
+button {
+    font: inherit;
+    border: 1px solid #14399e;
+    background:#14399e;
+    color: white;
+    padding: 0.10rem 2rem;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left: 300px;
+  }
+  
+  button:hover,
+  button:active {
+    background: #14399e;
+    border-color: #14399e;
+}
+  
+  button:focus {
+    outline: none;
+  }
+  
+
+  .contacts-added{
+margin-left: 280px;
+font-weight: 600;
+  }
+
+.card{
+    background: gray;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+   
+}
+input {
+    margin: 0.5rem auto;
+    padding: 0.2rem;
+    width: 90%;
+    max-width: 50rem;
+    margin-left: 10px;
+  }
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0 rem;
+    margin-left: 20px;
+  }
+  
+  input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.1rem;
+    margin-bottom: 0.15rem;
+    
+  }
+  
+  input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
